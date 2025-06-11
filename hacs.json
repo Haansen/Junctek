@@ -1,0 +1,8 @@
+{
+  "name": "Juntek Battery Monitor",
+  "content_in_root": false,
+  "domain": "juntek",
+  "country": "SE",
+  "homeassistant": "2023.0.0",
+  "render_readme": false
+}
