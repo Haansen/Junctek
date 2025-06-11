@@ -1,5 +1,5 @@
-"""Constants for the OralB integration."""
+"""Constants for the Junctek integration."""
 
-DOMAIN = "oralb_ble"
+DOMAIN = "junctek"
 UPDATE_SECONDS = 1
 DEVICE_TIMEOUT = 5
