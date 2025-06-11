@@ -1,0 +1,16 @@
+{
+  "title": "Juntek Battery Monitor",
+  "step": {
+    "user": {
+      "title": "Configure Juntek",
+      "data": {
+        "mac": "MAC address of the Juntek device",
+        "battery_voltage": "Battery Voltage"
+      }
+    }
+  },
+  "error": {
+    "invalid_mac": "Invalid MAC address"
+  },
+  "abort": {}
+}
