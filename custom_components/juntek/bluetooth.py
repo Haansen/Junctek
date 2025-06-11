@@ -4,9 +4,8 @@ import logging
 _LOGGER = logging.getLogger(__name__)
 
 class JuntekConnector:
-    def __init__(self):
-        # Replace this with actual initialization of your BLE client
-        pass
+    def __init__(self, mac_address):
+        self.mac = mac_address
 
     async def async_fetch_data(self):
         try:

@@ -12,7 +12,7 @@ from .bluetooth import JuntekConnector
 _LOGGER = logging.getLogger(__name__)
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_entities: AddEntitiesCallback):
-    connector = JuntekConnector()
+    connector = JuntekConnector(entry.data["mac"])
     coordinator = DataUpdateCoordinator(
         hass,
         _LOGGER,
