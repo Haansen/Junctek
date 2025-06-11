@@ -19,13 +19,6 @@ This is a custom Home Assistant integration that connects to a Junctek battery m
 
 Copy the `juntek` folder inside `custom_components` into your Home Assistant's `config/custom_components/`.
 
-## Configuration
-
-```yaml
-sensor:
-  - platform: juntek
-```
-
 ## Notes
 
 This integration is based on the logic from the original Junctek add-on by Tsjippy, refactored into a native integration.
