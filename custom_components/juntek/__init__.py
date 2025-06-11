@@ -1,1 +1,1 @@
-"""Juntek integration."""
+DOMAIN = "juntek"
