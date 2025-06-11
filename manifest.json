@@ -1,0 +1,8 @@
+{
+  "domain": "juntek",
+  "name": "Juntek Battery Monitor",
+  "version": "1.0.0",
+  "requirements": ["bleak==0.20.0"],
+  "codeowners": [],
+  "iot_class": "local_polling"
+}
